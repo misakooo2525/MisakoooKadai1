@@ -10,12 +10,12 @@
 		039D96F83973CCC3FADD1A8A /* Pods_MisakoooKadai1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C43C22D63A55BE0459CC3C9 /* Pods_MisakoooKadai1Tests.framework */; };
 		701ABA352600FB59007BEFB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABA342600FB59007BEFB1 /* AppDelegate.swift */; };
 		701ABA372600FB59007BEFB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABA362600FB59007BEFB1 /* SceneDelegate.swift */; };
-		701ABA392600FB59007BEFB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABA382600FB59007BEFB1 /* ViewController.swift */; };
 		701ABA3C2600FB59007BEFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701ABA3A2600FB59007BEFB1 /* Main.storyboard */; };
 		701ABA3E2600FB5A007BEFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701ABA3D2600FB5A007BEFB1 /* Assets.xcassets */; };
 		701ABA412600FB5A007BEFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701ABA3F2600FB5A007BEFB1 /* LaunchScreen.storyboard */; };
 		701ABA4C2600FB5A007BEFB1 /* MisakoooKadai1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABA4B2600FB5A007BEFB1 /* MisakoooKadai1Tests.swift */; };
 		701ABA572600FB5A007BEFB1 /* MisakoooKadai1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABA562600FB5A007BEFB1 /* MisakoooKadai1UITests.swift */; };
+		701ABA73260110FA007BEFB1 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABA72260110FA007BEFB1 /* CalculationViewController.swift */; };
 		A349B3245251869BC1CF049D /* Pods_MisakoooKadai1_MisakoooKadai1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EC224FAE0B3C8D9961021C /* Pods_MisakoooKadai1_MisakoooKadai1UITests.framework */; };
 		C6C27811A195144545BB2B20 /* Pods_MisakoooKadai1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC57605A9714BAACD2C9A890 /* Pods_MisakoooKadai1.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,6 @@
 		701ABA312600FB59007BEFB1 /* MisakoooKadai1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisakoooKadai1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		701ABA342600FB59007BEFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		701ABA362600FB59007BEFB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		701ABA382600FB59007BEFB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		701ABA3B2600FB59007BEFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		701ABA3D2600FB5A007BEFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701ABA402600FB5A007BEFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		701ABA522600FB5A007BEFB1 /* MisakoooKadai1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisakoooKadai1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701ABA562600FB5A007BEFB1 /* MisakoooKadai1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisakoooKadai1UITests.swift; sourceTree = "<group>"; };
 		701ABA582600FB5A007BEFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701ABA72260110FA007BEFB1 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		90363237CB6C96BBF921E50F /* Pods-MisakoooKadai1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisakoooKadai1.debug.xcconfig"; path = "Target Support Files/Pods-MisakoooKadai1/Pods-MisakoooKadai1.debug.xcconfig"; sourceTree = "<group>"; };
 		AEB45757AEAFA17556AC74E1 /* Pods-MisakoooKadai1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisakoooKadai1.release.xcconfig"; path = "Target Support Files/Pods-MisakoooKadai1/Pods-MisakoooKadai1.release.xcconfig"; sourceTree = "<group>"; };
 		BC57605A9714BAACD2C9A890 /* Pods_MisakoooKadai1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisakoooKadai1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +118,7 @@
 			children = (
 				701ABA342600FB59007BEFB1 /* AppDelegate.swift */,
 				701ABA362600FB59007BEFB1 /* SceneDelegate.swift */,
-				701ABA382600FB59007BEFB1 /* ViewController.swift */,
+				701ABA72260110FA007BEFB1 /* CalculationViewController.swift */,
 				701ABA3A2600FB59007BEFB1 /* Main.storyboard */,
 				701ABA3D2600FB5A007BEFB1 /* Assets.xcassets */,
 				701ABA3F2600FB5A007BEFB1 /* LaunchScreen.storyboard */,
@@ -388,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701ABA392600FB59007BEFB1 /* ViewController.swift in Sources */,
+				701ABA73260110FA007BEFB1 /* CalculationViewController.swift in Sources */,
 				701ABA352600FB59007BEFB1 /* AppDelegate.swift in Sources */,
 				701ABA372600FB59007BEFB1 /* SceneDelegate.swift in Sources */,
 			);
