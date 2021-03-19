@@ -16,22 +16,23 @@ class CalculationViewController: UIViewController {
     @IBOutlet private weak var totalLabel: UILabel!
     
     @IBAction private func didTapCalculationButton(_ sender: Any) {
-        let result = self.sum(value1: self.numberTextField1.text ?? "",
-                              value2: self.numberTextField2.text ?? "",
-                              value3: self.numberTextField3.text ?? "",
-                              value4: self.numberTextField4.text ?? "",
-                              value5: self.numberTextField5.text ?? "")
+        let total = sum(text1: numberTextField1.text ?? "",
+                        text2: numberTextField2.text ?? "",
+                        text3: numberTextField3.text ?? "",
+                        text4: numberTextField4.text ?? "",
+                        text5: numberTextField5.text ?? "")
         
-        self.totalLabel.text = String(result)
+        totalLabel.text = String(total)
     }
     
-    private func sum(value1: String, value2: String, value3: String, value4: String, value5: String) -> Int {
-        let values: [String] = [value1, value2, value3, value4, value5]
-        var result = 0
+    private func sum(text1: String, text2: String, text3: String, text4: String, text5: String) -> Int {
+
+        var total = 0
         
-        for number in values {
-            result += Int(number) ?? 0
+        for text in [text1, text2, text3, text4, text5] {
+            total += Int(text) ?? 0
         }
-        return result
+
+        return total
     }
 }
